@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "info": "************** \n !!! IMPORTANT !!! \n Have you updated your code in /src/react_JSX_Code folder? \n If Yes use command: npm run react \n  ************** ",
+    "react": "updateReactCode.bat",
+    "start": "npm run info & npm run dev",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

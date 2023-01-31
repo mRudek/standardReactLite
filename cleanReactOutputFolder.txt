@@ -1,0 +1,3 @@
+del ./public/reactJSXConverted
+npm run react
+
